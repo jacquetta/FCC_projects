@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  background-color: #a9d7d1;
+  font-family: 'Roboto', sans-serif;
+}
+
+input {
+  margin-bottom: 10px;
+  width: 300px;
+  height: 30px;
+  padding-left: 3px;
+  font-size: 11px;
+}
+
+
+#number {
+  margin-left: 7px;
+}
+
+.box {
+  background: #FAFAFA;
+  padding: 20px 0px 10px 30px;
+  width: 700px;
+}
+
+
+#name-label {
+  margin-left: 150px;
+  text-align: center;
+}
+
+#number-label {
+  margin-left: 150px;
+  text-align: center;
+}
+
+#email-label {
+  margin-left: 150px;
+  text-align: center;
+}
+
+#one {
+  float: left;
+}
+
+.student {
+  float: left;
+  padding-right: 10px;
+  margin-left: 10px;
+}

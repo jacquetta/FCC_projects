@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>Survey</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+    </head>
+  <body>
+    <main>
+      <h1 id="title">Survey Form</h1>
+       <div class="container box">
+        <p id="description">Let us know how we can improve freeCodeCamp</p>
+        <form id="survey-form">
+          <label id="name-label" for="name">*Name:</label>
+          <input type="text" id="name" placeholder="Enter Your Name" required>
+         <br>
+          <label id="email-label" for="email">*Email:</label>
+          <input type="email" id="email" placeholder="Enter your Email" required>
+        <br>
+
+          <label id="number-label" for="age">*Age:</label>
+          <input type="number"  id="number" placeholder="Age" required>
+        <br>
+
+          <div class="dropdown">
+          <label id="one" for"role">Which option best describes your current role?</label>
+
+            <button class="student" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Student
+              <span class="caret"></span>
+          </button>
+            <ul class="dropdown-menu">
+             <li class="disabled"><a href="#">Select an option</a></li>
+             <li role="separator" class="divider"></li>
+              <li><a href="#">Full Time Job</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Full Time Learner</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Prefer not to say</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Other</a></li>
+            </ul>
+          </div>
+         </form>
+        </div>
+    </main>
+  </body>
+</html>
