@@ -8,7 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+
 
     <script type="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
     </head>
@@ -30,7 +30,7 @@
         <br>
 
           <div class="dropdown">
-          <label id="one" for"role">Which option best describes your current role?</label>
+          <label id="one" for="role">Which option best describes your current role?</label>
 
             <button class="student" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Student
               <span class="caret"></span>
@@ -46,9 +46,83 @@
               <li role="separator" class="divider"></li>
               <li><a href="#">Other</a></li>
             </ul>
-          </div>
+          </div><!--dropdown-->
+          <br> <br>
+
+
+          <label id="recommend" for="role">* How likely is that you would<br>recommend freeCodeCamp to a friend?</label>
+          <div class="radio">
+            <label class="first"><input class="next" type="radio" name="optradio">Definitely</label>
+          </div><!--radio-->
+          <div class="radio">
+            <label class="first"><input class="next" type="radio" name="optradio">Maybe</label>
+          </div><!--radio-->
+          <div class="radio">
+            <label class="first"><input class="next" type="radio" name="optradio">Not sure</label>
+          </div><!--radio-->
+
+          <div class="dropdown">
+          <label id="two" for="role">What do you like most in FCC:</label>
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select an option
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li class="disabled"><a href="#">Select an option</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Challenges</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Projects</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Community</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Open Source</a></li>
+          </ul>
+         </div><!--dropdown-->
+         <br>
+
+         <label id="three" for="role">Things that should be improved in the<br>future<br>(Check all that apply):</label>
+         <div class="radio">
+           <label class="second"><input class="next" type="radio" name="optradio">Front-End Projects</label>
+         </div><!--radio-->
+         <div class="radio">
+           <label class="second"><input class="next" type="radio" name="optradio">Back-End Projects</label>
+         </div><!--radio-->
+         <div class="radio">
+           <label class="second"><input class="next" type="radio" name="optradio">Data Visualization</label>
+         </div><!--radio-->
+         <div class="radio">
+           <label class="second"><input class="next" type="radio" name="optradio">Challenges</label>
+         </div><!--radio-->
+         <div class="radio">
+           <label class="second"><input class="next" type="radio" name="optradio">Open Source Community</label>
+         </div><!--radio-->
+         <div class="radio">
+           <label class="second"><input class="next" type="radio" name="optradio">Gitter help rooms</label>
+         </div><!--radio-->
+         <div class="radio">
+           <label class="second"><input class="next" type="radio" name="optradio">Videos</label>
+         </div><!--radio-->
+         <div class="radio">
+           <label class="second"><input class="next" type="radio" name="optradio">City Meetups</label>
+         </div><!--radio-->
+         <div class="radio">
+           <label class="second"><input class="next" type="radio" name="optradio">Wiki</label>
+         </div><!--radio-->
+         <div class="radio">
+           <label class="second"><input class="next" type="radio" name="optradio">Forum</label>
+         </div><!--radio-->
+          <div class="radio">
+           <label class="second"><input class="next" type="radio" name="optradio">Additional Courses</label>
+           </div><!--radio-->
+           <br>
+
+           <label id="three" for="role">Any Comments or Suggestions?</label>
+           <div class="form-group">
+              <textarea class="form-group" rows="5" placeholder="enter your comment here..."></textarea>
+           </div><!--form-group-->
+           <button type="button" class="btn btn-primary">Submit</button>
          </form>
-        </div>
+        </div><!--container-box-->
     </main>
+
   </body>
 </html>

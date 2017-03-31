@@ -48,3 +48,19 @@ input {
   padding-right: 10px;
   margin-left: 10px;
 }
+
+#recommend {
+  float: left;
+}
+
+.first {
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+
+.next {
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+}
